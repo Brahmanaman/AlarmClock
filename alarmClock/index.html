@@ -11,12 +11,42 @@
 
 <body>
     <div class="container">
-        <img src="images/pngwing.com.png" alt="">
-    </div>
-    <div id="alarm" class="time">
+        <div class="logo">
+            <img id='clockimg' src="images/pngwing.com.png" alt="alarm image">
+        </div>
+        
+        <div id="time" class="time">
+            <h1>00:00:00</h1>
+        </div>
+
+        <div class="setTime">
+            <div class="alarmTime">
+                <select>
+                    <option value="Hours" selected disabled hidden>Hours</option>
+                </select>
+            </div>
+
+            <div class="alarmTime">
+                <select>
+                    <option value="Minutes" selected disabled hidden>Minutes</option>
+                </select>
+            </div>
+
+            <div class="alarmTime">
+                <select>
+                    <option value="AM/PM" selected disabled hidden>AM/PM</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="button" class="button">
+            <button>Confirm Alarm</button>
+
+        </div>
 
     </div>
-    <!-- <script src="index.js"></script> -->
+    
+    <script src="index.js"></script>
 </body>
 
 </html>
